@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (e) => {
     browser.tabs.executeScript(null, {
-        file: '../handle-speed.js'
+        file: '../js/speed.js'
     }).then(() => {
         browser.tabs.query({
             active: true,
@@ -18,7 +18,7 @@ document.addEventListener('click', (e) => {
     if (option !== 'increment' && option !== 'decrement') return;
 
     browser.tabs.executeScript(null, {
-        file: '../change-speed.js'
+        file: '../js/change.js'
     }).then(() => {
         browser.tabs.query({
             active: true,
