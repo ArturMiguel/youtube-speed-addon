@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "youtube-speed-extension",
+    "version": "1.0.0",
+    "description": "Extensão para modificar a velocidade de reprodução de vídeos no Youtube",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "./assets/icon.png",
+        "default_title": "Speed",
+        "default_popup": "./src/popup/index.html"
+    }
+}
