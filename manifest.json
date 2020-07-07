@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "youtube-speed-extension",
-    "version": "1.0.1",
-    "description": "Extensão para modificar a velocidade de reprodução de vídeos no Youtube",
+    "name": "youtube-speed",
+    "version": "1.0.2",
+    "description": "Firefox extension to modify YouTube playback rate.",
     "permissions": [
         "activeTab"
     ],
