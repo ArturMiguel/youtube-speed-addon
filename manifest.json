@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "youtube-speed",
-    "version": "1.0.2",
-    "description": "Firefox extension to modify YouTube playback rate.",
+    "version": "1.0.3",
+    "description": "Extension to modify YouTube playback rate.",
     "permissions": [
         "activeTab"
     ],
@@ -14,5 +14,10 @@
     "icons": {
         "48": "./assets/icon-48.png",
         "96": "./assets/icon-96.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "{3689f53c-dc86-40cf-879c-0919ff85e1ee}"
+        }
     }
 }
